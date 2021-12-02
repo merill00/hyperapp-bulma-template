@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <!-- @todo Inject via bundler? -->
+    <title>Page Title</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Link to the main/entry JS file, where all is bundled together using esbuild -->
+    <script type="module" src="main.js"></script>
+
+    <!-- Linked to the processed bulma CSS file, where unused css classes are removed using PurgeCSS -->
+    <link rel='stylesheet' type='text/css' media='screen' href='bulma.css'>
+</head>
+
+<body>
+    <div id="app"></div>
+
+</body>
+
+</html>
